@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+.header h1{
+  color: rgb(184, 108, 120);
+}
+.header div{
+  display: inline-flex;
+  margin: auto;
+  gap: 2rem;
+
+}
+.header div p{
+  text-decoration-line: underline;
+  margin: auto;
+  color: blue;
+}
+#bg{
+  height: 45rem;
+  position: absolute;
+  width: 105.5%;
+  margin-left: -50rem;
+}
+.description{
+  margin-left: 23rem;
+  margin-top: 6rem;
+  background-color: whitesmoke;
+  border-radius: 3rem;
+  height: 20rem;
+  width: 45rem;
+  position: absolute;
+  z-index: 3;
+  opacity: 70%;
+  text-align: initial;
+  padding: 2rem;
+
+}
+#img1{
+  height: 15rem;
+  position: absolute;
+  z-index: 5;
+  margin: 20rem -16rem;
+  border-radius: 1rem;
+}
+.pink-div{
+  height: 22rem;
+  width: 100%;
+  background-color: palevioletred;
+  margin-top: 40rem;
+  opacity: 20%;
+}
+#img2{
+  margin-top: -16rem;
+  position: absolute;
+  margin-left: -9rem;
+}
+h4{
+  position: absolute;
+  margin-top: -20rem;
+  margin-left: 4rem;
+}
